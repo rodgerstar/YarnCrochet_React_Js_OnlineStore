@@ -9,39 +9,31 @@ import menu_4 from './menu_4.png'
 import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
+import menu_8 from './menu_8.png'
 
-import food_1 from './food_1.png'
-import food_2 from './food_2.png'
-import food_3 from './food_3.png'
-import food_4 from './food_4.png'
-import food_5 from './food_5.png'
-import food_6 from './food_6.png'
-import food_7 from './food_7.png'
-import food_8 from './food_8.png'
-import food_9 from './food_9.png'
-import food_10 from './food_10.png'
-import food_11 from './food_11.png'
-import food_12 from './food_12.png'
-// import food_13 from './food_13.png'
-// import food_14 from './food_14.png'
-// import food_15 from './food_15.png'
-// import food_16 from './food_16.png'
-// import food_17 from './food_17.png'
-// import food_18 from './food_18.png'
-// import food_19 from './food_19.png'
-// import food_20 from './food_20.png'
-// import food_21 from './food_21.png'
-// import food_22 from './food_22.png'
-// import food_23 from './food_23.png'
-// import food_24 from './food_24.png'
-// import food_25 from './food_25.png'
-// import food_26 from './food_26.png'
-// import food_27 from './food_27.png'
-// import food_28 from './food_28.png'
-// import food_29 from './food_29.png'
-// import food_30 from './food_30.png'
-// import food_31 from './food_31.png'
-// import food_32 from './food_32.png'
+
+import blanket from './blanket.png'
+import bennie from './bennie.png'
+import christmas_bennie from './christmas_bennie.png'
+import baby_blanket from './baby_blanket.png'
+import dog_mart from './dog_mart.png'
+import doll from './doll.png'
+import headband from './headband.png'
+import key_holders from './key_holders.png'
+import plant_hanging from './plant_hanging.png'
+import scarf from './scarf.png'
+import tote_bag from './tote_bag.png'
+import wall_hanging from './wall_hanging.png'
+import sweater from './sweater.png'
+import home_decor from './home_decor.png'
+import crochet_coasters from './crochet_coasters.png'
+
+
+
+
+
+
+
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -83,32 +75,36 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Apparel & Wearables",
+        menu_name: "Crochet Apparel & Wearables",
         menu_image: menu_1
     },
     {
-        menu_name: "Accessories",
+        menu_name: "Crochet Accessories",
         menu_image: menu_2
     },
     {
-        menu_name: "Home Décor",
+        menu_name: "Crochet Home Décor",
         menu_image: menu_3
     },
     {
-        menu_name: "Seasonal & Themed Items",
+        menu_name: "Seasonal & Themed Crochet Items",
         menu_image: menu_4
     },
     {
-        menu_name: "Everyday Items",
+        menu_name: "Everyday Crochet Items",
         menu_image: menu_5
     },
     {
-        menu_name: "Pet Products",
+        menu_name: "Crochet Pet Products",
         menu_image: menu_6
     },
     {
-        menu_name: "Outdoor Items",
+        menu_name: "Outdoor Crochet Items",
         menu_image: menu_7
+    },
+    {
+        menu_name: "Crochet Bedding",
+        menu_image: menu_8
     }
     ]
 
@@ -116,97 +112,122 @@ export const yarn_piece = [
     {
         _id: "1",
         name: "Beanie",
-        image: food_1, // Replace with actual image import
-        price: 15,
+        image: bennie, // Replace with actual image import
+        price: 350,
         description: "Handmade crochet beanie, perfect for winter warmth.",
-        category: "Headwear"
+        category: "Crochet Apparel & Wearables"
     },
     {
         _id: "2",
         name: "Scarf",
-        image: food_2, // Replace with actual image import
-        price: 25,
+        image: scarf, // Replace with actual image import
+        price: 500,
         description: "Elegant crochet scarf, soft and comfortable.",
-        category: "Accessories"
+        category: "Crochet Accessories"
     },
     {
         _id: "3",
         name: "Baby Blanket",
-        image: food_3, // Replace with actual image import
-        price: 40,
+        image: baby_blanket, // Replace with actual image import
+        price: 2500,
         description: "Soft and cozy baby blanket made with love.",
-        category: "Baby Items"
+        category: "Crochet Bedding"
     },
     {
         _id: "4",
         name: "Crochet Coasters",
-        image: food_4, // Replace with actual image import
-        price: 12,
+        image: crochet_coasters, // Replace with actual image import
+        price: 1000,
         description: "Set of 4 handmade crochet coasters, durable and stylish.",
-        category: "Home Decor"
+        category: "Crochet Home Décor"
     },
     {
         _id: "5",
         name: "Tote Bag",
-        image: food_5, // Replace with actual image import
-        price: 35,
+        image: tote_bag, // Replace with actual image import
+        price: 1500,
         description: "Stylish crochet tote bag, perfect for everyday use.",
-        category: "Bags"
+        category: "Everyday Crochet Items"
     },
     {
         _id: "6",
         name: "Wall Hanging",
-        image: food_6, // Replace with actual image import
-        price: 30,
+        image: wall_hanging, // Replace with actual image import
+        price: 2000,
         description: "Beautiful crochet wall hanging to enhance your decor.",
-        category: "Home Decor"
+        category: "Crochet Home Décor"
     },
     {
         _id: "7",
         name: "Crochet Doll",
-        image: food_7, // Replace with actual image import
-        price: 20,
+        image: doll, // Replace with actual image import
+        price: 1200,
         description: "Adorable handmade crochet doll, perfect as a gift.",
-        category: "Toys"
+        category: "Crochet Accessories"
     },
     {
         _id: "8",
-        name: "Crochet Keychain",
-        image: food_8, // Replace with actual image import
-        price: 8,
+        name: "KeyHolder",
+        image: key_holders, // Replace with actual image import
+        price: 700,
         description: "Cute crochet keychain, available in various designs.",
-        category: "Accessories"
+        category: "Everyday Crochet Items"
     },
     {
         _id: "9",
         name: "Plant Holder",
-        image: food_9, // Replace with actual image import
-        price: 18,
+        image: plant_hanging, // Replace with actual image import
+        price: 1800,
         description: "Stylish crochet plant holder, ideal for indoor plants.",
-        category: "Home Decor"
+        category: "Outdoor Crochet Items"
     },
     {
         _id: "10",
         name: "Blanket",
-        image: food_10, // Replace with actual image import
-        price: 50,
+        image: blanket, // Replace with actual image import
+        price: 3000,
         description: "Luxurious handmade crochet blanket, perfect for cozy nights.",
-        category: "Bedding"
+        category: "Crochet Bedding"
     },
     {
         _id: "11",
         name: "Headband",
-        image: food_11, // Replace with actual image import
-        price: 10,
+        image: headband, // Replace with actual image import
+        price: 250,
         description: "Trendy crochet headband, soft and comfortable.",
-        category: "Headwear"
+        category: "Crochet Accessories"
     },
     {
         _id: "12",
         name: "Sweater",
-        image: food_12, // Replace with actual image import
-        price: 60,
+        image: sweater, // Replace with actual image import
+        price: 1500,
         description: "Beautifully handcrafted crochet sweater for all seasons.",
-        category: "Clothing"
+        category: "Crochet Apparel & Wearables"
+    },
+    {
+        _id: "13",
+        name: "Home Decor",
+        image: home_decor, // Replace with actual image import
+        price: 6000,
+        description: "Beautifully handcrafted crochet sweater for all seasons.",
+        category: "Crochet Home Décor"
+    },
+    {
+        _id: "14",
+        name: "Dog Mart",
+        image: dog_mart, // Replace with actual image import
+        price: 2400,
+        description: "Beautifully handcrafted crochet sweater for all seasons.",
+        category: "Crochet Pet Products"
+    },
+    {
+        _id: "15",
+        name: "Christmas Bennie",
+        image: christmas_bennie, // Replace with actual image import
+        price: 999,
+        description: "Beautifully handcrafted crochet sweater for all seasons.",
+        category: "Seasonal & Themed Crochet Items"
     }
+
 ];
