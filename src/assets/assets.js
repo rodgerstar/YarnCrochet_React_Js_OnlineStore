@@ -22,26 +22,26 @@ import food_9 from './food_9.png'
 import food_10 from './food_10.png'
 import food_11 from './food_11.png'
 import food_12 from './food_12.png'
-import food_13 from './food_13.png'
-import food_14 from './food_14.png'
-import food_15 from './food_15.png'
-import food_16 from './food_16.png'
-import food_17 from './food_17.png'
-import food_18 from './food_18.png'
-import food_19 from './food_19.png'
-import food_20 from './food_20.png'
-import food_21 from './food_21.png'
-import food_22 from './food_22.png'
-import food_23 from './food_23.png'
-import food_24 from './food_24.png'
-import food_25 from './food_25.png'
-import food_26 from './food_26.png'
-import food_27 from './food_27.png'
-import food_28 from './food_28.png'
-import food_29 from './food_29.png'
-import food_30 from './food_30.png'
-import food_31 from './food_31.png'
-import food_32 from './food_32.png'
+// import food_13 from './food_13.png'
+// import food_14 from './food_14.png'
+// import food_15 from './food_15.png'
+// import food_16 from './food_16.png'
+// import food_17 from './food_17.png'
+// import food_18 from './food_18.png'
+// import food_19 from './food_19.png'
+// import food_20 from './food_20.png'
+// import food_21 from './food_21.png'
+// import food_22 from './food_22.png'
+// import food_23 from './food_23.png'
+// import food_24 from './food_24.png'
+// import food_25 from './food_25.png'
+// import food_26 from './food_26.png'
+// import food_27 from './food_27.png'
+// import food_28 from './food_28.png'
+// import food_29 from './food_29.png'
+// import food_30 from './food_30.png'
+// import food_31 from './food_31.png'
+// import food_32 from './food_32.png'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -112,235 +112,101 @@ export const menu_list = [
     }
     ]
 
-export const food_list = [
+export const yarn_piece = [
     {
         _id: "1",
-        name: "Greek salad",
-        image: food_1,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        name: "Beanie",
+        image: food_1, // Replace with actual image import
+        price: 15,
+        description: "Handmade crochet beanie, perfect for winter warmth.",
+        category: "Headwear"
     },
     {
         _id: "2",
-        name: "Veg salad",
-        image: food_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    }, {
+        name: "Scarf",
+        image: food_2, // Replace with actual image import
+        price: 25,
+        description: "Elegant crochet scarf, soft and comfortable.",
+        category: "Accessories"
+    },
+    {
         _id: "3",
-        name: "Clover Salad",
-        image: food_3,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    }, {
+        name: "Baby Blanket",
+        image: food_3, // Replace with actual image import
+        price: 40,
+        description: "Soft and cozy baby blanket made with love.",
+        category: "Baby Items"
+    },
+    {
         _id: "4",
-        name: "Chicken Salad",
-        image: food_4,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    }, {
+        name: "Crochet Coasters",
+        image: food_4, // Replace with actual image import
+        price: 12,
+        description: "Set of 4 handmade crochet coasters, durable and stylish.",
+        category: "Home Decor"
+    },
+    {
         _id: "5",
-        name: "Lasagna Rolls",
-        image: food_5,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
-    }, {
+        name: "Tote Bag",
+        image: food_5, // Replace with actual image import
+        price: 35,
+        description: "Stylish crochet tote bag, perfect for everyday use.",
+        category: "Bags"
+    },
+    {
         _id: "6",
-        name: "Peri Peri Rolls",
-        image: food_6,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
-    }, {
+        name: "Wall Hanging",
+        image: food_6, // Replace with actual image import
+        price: 30,
+        description: "Beautiful crochet wall hanging to enhance your decor.",
+        category: "Home Decor"
+    },
+    {
         _id: "7",
-        name: "Chicken Rolls",
-        image: food_7,
+        name: "Crochet Doll",
+        image: food_7, // Replace with actual image import
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
-    }, {
+        description: "Adorable handmade crochet doll, perfect as a gift.",
+        category: "Toys"
+    },
+    {
         _id: "8",
-        name: "Veg Rolls",
-        image: food_8,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
-    }, {
+        name: "Crochet Keychain",
+        image: food_8, // Replace with actual image import
+        price: 8,
+        description: "Cute crochet keychain, available in various designs.",
+        category: "Accessories"
+    },
+    {
         _id: "9",
-        name: "Ripple Ice Cream",
-        image: food_9,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
-    }, {
+        name: "Plant Holder",
+        image: food_9, // Replace with actual image import
+        price: 18,
+        description: "Stylish crochet plant holder, ideal for indoor plants.",
+        category: "Home Decor"
+    },
+    {
         _id: "10",
-        name: "Fruit Ice Cream",
-        image: food_10,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
-    }, {
+        name: "Blanket",
+        image: food_10, // Replace with actual image import
+        price: 50,
+        description: "Luxurious handmade crochet blanket, perfect for cozy nights.",
+        category: "Bedding"
+    },
+    {
         _id: "11",
-        name: "Jar Ice Cream",
-        image: food_11,
+        name: "Headband",
+        image: food_11, // Replace with actual image import
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
-    }, {
+        description: "Trendy crochet headband, soft and comfortable.",
+        category: "Headwear"
+    },
+    {
         _id: "12",
-        name: "Vanilla Ice Cream",
-        image: food_12,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
-    },
-    {
-        _id: "13",
-        name: "Chicken Sandwich",
-        image: food_13,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
-    },
-    {
-        _id: "14",
-        name: "Vegan Sandwich",
-        image: food_14,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
-    }, {
-        _id: "15",
-        name: "Grilled Sandwich",
-        image: food_15,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
-    }, {
-        _id: "16",
-        name: "Bread Sandwich",
-        image: food_16,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
-    }, {
-        _id: "17",
-        name: "Cup Cake",
-        image: food_17,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
-    }, {
-        _id: "18",
-        name: "Vegan Cake",
-        image: food_18,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
-    }, {
-        _id: "19",
-        name: "Butterscotch Cake",
-        image: food_19,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
-    }, {
-        _id: "20",
-        name: "Sliced Cake",
-        image: food_20,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
-    }, {
-        _id: "21",
-        name: "Garlic Mushroom ",
-        image: food_21,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    }, {
-        _id: "22",
-        name: "Fried Cauliflower",
-        image: food_22,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    }, {
-        _id: "23",
-        name: "Mix Veg Pulao",
-        image: food_23,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    }, {
-        _id: "24",
-        name: "Rice Zucchini",
-        image: food_24,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    },
-    {
-        _id: "25",
-        name: "Cheese Pasta",
-        image: food_25,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    },
-    {
-        _id: "26",
-        name: "Tomato Pasta",
-        image: food_26,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
-        _id: "27",
-        name: "Creamy Pasta",
-        image: food_27,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
-        _id: "28",
-        name: "Chicken Pasta",
-        image: food_28,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
-        _id: "29",
-        name: "Buttter Noodles",
-        image: food_29,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
-        _id: "30",
-        name: "Veg Noodles",
-        image: food_30,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
-        _id: "31",
-        name: "Somen Noodles",
-        image: food_31,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
-        _id: "32",
-        name: "Cooked Noodles",
-        image: food_32,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        name: "Sweater",
+        image: food_12, // Replace with actual image import
+        price: 60,
+        description: "Beautifully handcrafted crochet sweater for all seasons.",
+        category: "Clothing"
     }
-]
+];
