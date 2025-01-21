@@ -31,12 +31,12 @@ const Footer = () => {
                     <h2>GET IN TOUCH</h2>
                     <ul>
                         <li>+254-700-000-090</li>
-                        <li>contact@gmail.com</li>
+                        <li>KnotCompany@info.com</li>
                     </ul>
                 </div>
             </div>
             <hr/>
-            <p className="footer-copyright">Copyright 2025 @Yarn.com - All Rights Reserved  |  Nexel </p>
+            <p className="footer-copyright">Copyright 2025 @Knot & companies.com - All Rights Reserved  |  Nexel </p>
         </div>
     )
 }
