@@ -7,7 +7,11 @@ const ExploreMenu = ({category,setCategory}) => {
     return (
         <div className='explore-menu' id='explore-menu'>
             <h1>Explore Our Crafts</h1>
-            <p className='explore-menu-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium architecto at beatae consequatur, deleniti dignissimos eius eligendi eveniet fuga libero, numquam, obcaecati odit optio quaerat quia sequi unde ut.</p>
+            <p className='explore-menu-text'>Discover a world of creativity and craftsmanship.
+                Our collection features unique, handmade crochet pieces designed to bring warmth, style, and charm to your life.
+                From cozy wearables to elegant home décor, there’s something for everyone.
+                Dive into our categories and find the perfect addition to your wardrobe or home!
+            </p>
             <div className='explore-menu-list'>
                 {menu_list.map((item,index)=>{
                     return (

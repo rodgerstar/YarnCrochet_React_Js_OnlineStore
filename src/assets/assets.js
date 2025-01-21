@@ -27,6 +27,11 @@ import wall_hanging from './wall_hanging.png'
 import sweater from './sweater.png'
 import home_decor from './home_decor.png'
 import crochet_coasters from './crochet_coasters.png'
+import outdooor_blanket from './OutDoor_Blanket.png'
+import neck_warmers from './Neck_Warmers.png'
+import picnic_blanket from './Picnic_Blanket.png'
+import pillow from './pillow.png'
+import doll_1 from './Doll_1.png'
 
 
 
@@ -105,7 +110,7 @@ export const menu_list = [
     {
         menu_name: "Crochet Bedding",
         menu_image: menu_8
-    }
+    },
     ]
 
 export const yarn_piece = [
@@ -210,7 +215,7 @@ export const yarn_piece = [
         name: "Home Decor",
         image: home_decor, // Replace with actual image import
         price: 6000,
-        description: "Beautifully handcrafted crochet sweater for all seasons.",
+        description: "Exquisite handcrafted crochet pieces to elevate your home's ambiance.",
         category: "Crochet Home Décor"
     },
     {
@@ -218,16 +223,56 @@ export const yarn_piece = [
         name: "Dog Mart",
         image: dog_mart, // Replace with actual image import
         price: 2400,
-        description: "Beautifully handcrafted crochet sweater for all seasons.",
+        description: "Charming crochet accessories for your furry friends, combining comfort and style.",
         category: "Crochet Pet Products"
     },
     {
         _id: "15",
-        name: "Christmas Bennie",
+        name: "Christmas Beanie",
         image: christmas_bennie, // Replace with actual image import
         price: 999,
-        description: "Beautifully handcrafted crochet sweater for all seasons.",
+        description: "Festive crochet beanie, perfect for celebrating the holiday season in style.",
         category: "Seasonal & Themed Crochet Items"
+    },
+    {
+        _id: "16",
+        name: "Doll",
+        image: doll_1, // Replace with actual image import
+        price: 999,
+        description: "Adorable handcrafted crochet doll, a perfect addition to your collection or as a gift.",
+        category: "Crochet Home Décor"
+    },
+    {
+        _id: "17",
+        name: "Outdoor Blanket",
+        image: outdooor_blanket, // Replace with actual image import
+        price: 999,
+        description: "Durable and cozy crochet blanket, ideal for outdoor adventures and picnics.",
+        category: "Outdoor Crochet Items"
+    },
+    {
+        _id: "18",
+        name: "Neck Warmers",
+        image: neck_warmers, // Replace with actual image import
+        price: 999,
+        description: "Stylish and warm crochet neck warmers, a perfect blend of fashion and comfort.",
+        category: "Crochet Accessories"
+    },
+    {
+        _id: "19",
+        name: "Picnic Blankets",
+        image: picnic_blanket, // Replace with actual image import
+        price: 999,
+        description: "Spacious and vibrant crochet picnic blankets, perfect for outdoor gatherings.",
+        category: "Outdoor Crochet Items"
+    },
+    {
+        _id: "20",
+        name: "Pillow",
+        image: pillow, // Replace with actual image import
+        price: 999,
+        description: "Plush and decorative crochet pillow, perfect for enhancing your living space.",
+        category: "Everyday Crochet Items"
     }
-
 ];
+

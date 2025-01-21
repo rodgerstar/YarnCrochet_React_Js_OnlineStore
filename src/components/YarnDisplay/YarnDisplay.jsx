@@ -12,8 +12,9 @@ const YarnDisplay = ({ category }) => {
         <div className='yarn-display' id='yarn-display'>
             <h2>Top Crafts Near You!</h2>
             <div className="yarn-display-list">
-                {yarn_piece.map((item, index) => (
-                    <YarnItem
+                {yarn_piece.map((item, index) => {
+                    if (category==="All" || category===item.category) {
+                        return <YarnItem
                         key={index}
                         id={item._id}
                         name={item.name}
@@ -21,7 +22,9 @@ const YarnDisplay = ({ category }) => {
                         price={item.price}
                         image={item.image}
                     />
-                ))}
+                            }
+
+                })}
             </div>
         </div>
     );
