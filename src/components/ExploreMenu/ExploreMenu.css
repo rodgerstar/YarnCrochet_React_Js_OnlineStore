@@ -23,14 +23,14 @@
 .explore-menu-list::-webkit-scrollbar{
     display: none;
 }
-.explore-menu-list-item img{
-    width: 7.5vw;
+.explore-menu-list img{
+    width: 6.5vw;
     min-width: 80px;
     cursor: pointer;
     border-radius: 50%;
     transition: 0.2s;
 }
-.explore-menu-list-item p{
+.explore-menu-list p{
     margin-top: 10px;
     color: #3a222f;
     font-size: max(1.4vw,16px);
@@ -43,8 +43,8 @@
     border: none;
 }
 .explore-menu-list-item .active{
-    border: 4px solid #3a222f;
-    padding: 2px;
+    border: 3px solid #3a222f;
+    padding: 1px;
 }
 @media (max-width: 1050px) {
     .explore-menu-text{
